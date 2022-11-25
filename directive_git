@@ -1,0 +1,8 @@
+Pour afficher la console "GIT"
+
+1- Sélectionner le dossier principal de votre TP avec clic droit souris
+2- Sélectionner " ouvrir dans le terminal intégré "
+3- Créer le dépot avec la commance " git init ", on fait cette commande une seule fois dans le dossier, sinon l'autre version va être détruite
+4- Dans l'explorateur, aller sur " Affichage/éléments masqués " pour voir .git aka " dépôt "
+
+5- 

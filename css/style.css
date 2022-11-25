@@ -1,0 +1,57 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body, 
+section,
+ h1 {
+    margin: 0;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/***************************************** MENU *******/
+
+.menu {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu a {
+    display: block;
+
+}
+
+#accueil {
+    background-color: rgb(77, 77, 255);
+}
+#inscription {
+    background-color: rgb(157, 157, 255);
+}
+#galerie {
+    background-color: rgb(45, 150, 101);
+}
+#tableau {
+    background-color: rgb(0, 255, 149);
+}
+#vidéo {
+    background-color: rgb(255, 161, 53);
+}
+#pied-page {
+    background-color: rgb(255, 202, 137);
+}
+
+/************************************************/
