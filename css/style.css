@@ -24,6 +24,8 @@ section {
 /***************************************** MENU *******/
 
 .menu {
+    height: 50px;
+    background-color: black;
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -32,7 +34,9 @@ section {
 
 .menu a {
     display: block;
-
+}
+.menu a:visited{
+    color: rgb(255, 255, 255);
 }
 
 #accueil {
