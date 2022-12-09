@@ -34,6 +34,9 @@ section {
 
 .menu a {
     display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
 }
 .menu a:visited{
     color: rgb(255, 255, 255);
