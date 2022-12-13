@@ -1,0 +1,26 @@
+/*@font-face {
+    font-family: 'Uncharted';
+    src: url(fonts/Uncharted.ttf);
+}*/
+
+.flex-tableau {
+    text-align: center;
+    background-color: rgba(0,0 , 0, 0.2);
+    border: 10px double rgba(0,0 , 0, 0.2);
+}
+    
+#tableau td {
+    border: 1px solid black;
+}
+
+#tableau th {
+    font-size: 20px;
+}
+
+#tableau table {
+    border: 1px solid black;
+    width: 630px;
+    height: 250px;
+    
+};
+

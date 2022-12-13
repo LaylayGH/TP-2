@@ -1,0 +1,7 @@
+.flex-galerie {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 10px double rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

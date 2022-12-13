@@ -20,7 +20,7 @@
   </head>
 
   <body>
-    <!--------------------------------------------------- Menu -->
+    <!--//////////////////////////////////////////////////////////////////////////// Menu -->
     <header>
       <nav class="menu">
         <a href="#accueil">accueil</a>
@@ -33,10 +33,11 @@
       </nav>
     </header>
 
-    <!--------------------------------------------------- Accueil -->
-      <section id="accueil">
+    <!--//////////////////////////////////////////////////////////////////////////// Accueil -->
+    <section id="accueil">
+        <div class="flex-accueil">
         <h2>↓ TP2 ↓</h2>
-        <h1>Uncharted</h1>
+        <h1> ⌜Uncharted⌟ </h1>
         <h3>Lhaissa Nomie Jérôme</h3>
         <p>
           1W1-Mise en page Web   |
@@ -46,80 +47,157 @@
         <p>
           Automne 2022
         </p>
+      </div>
       </section>
-    <!--------------------------------------------------- Inscription -->
+    <!--//////////////////////////////////////////////////////////////////////////// Inscription -->
     <section id="inscription">
-      <h1>inscription</h1>
-      <form action="">
-      <label for="">Prénom
+      <div class="flex-inscription">
+      <h1>⌜Inscription⌟ </h1>
+      <form>
+      <label>Prénom
           <input type="text">
       </label>
 
-      <label for="">Nom
+      <label>Nom
         <input type="text">
       </label>
 
-      <label for="">Email
+      <label>Email
       <input type="text">
       </label>
 
-      <div class="Jeux">
-        <label for="">1-Drake's Fortune<input type="checkbox" name="" id="html"></label>
-        <label for="">2-Among Thieves<input type="checkbox" name="" id="css"></label>
-        <label for="">3-L'Illusion de Drake<input type="checkbox" name="" id="javascript"></label>
-        <label for="">4-A Thief's End<input type="checkbox" name="" id="python"></label>
-      </div>
-      </form>
+      <h2>⇁ Les Jeux Uncharted ↼</h2>
 
+      <div class="Jeux">
+        <label>Drake's Fortune<input type="checkbox" id="1"></label>
+        <label>Among Thieves<input type="checkbox" id="2"></label>
+        <label>L'Illusion de Drake<input type="checkbox" id="3"></label>
+        <label>A Thief's End<input type="checkbox" id="4"></label>
+        <label>The Lost Legacy<input type="checkbox" id="5"></label>
+      </div>
+
+      <label class="dates-de-sorties">Dates de sorties de Jeu
+      <input type="number" id="temps" list="dates-de-sorties">
+        <datalist id="dates-de-sorties">
+          <option value="2007">
+          <option value="2009">
+          <option value="2011">
+          <option value="2016">
+          <option value="2017"></option>
+        </datalist>
+      </label>
+
+      <label id="soumettre">
+      <input type="submit">
+      </label>
+
+      </form>
+    </div>
     </section>
-    <!--------------------------------------------------- Tableau -->
+    <!--//////////////////////////////////////////////////////////////////////////// Tableau -->
     <section id="tableau">
-      <h1>Tableau</h1>
+      <div class="flex-tableau">
+      <h1> ⌜Tableau⌟ </h1>
       <table>
+        <thead>
         <tr>
-          <td>Lorem, ipsum dolor.</td>
-          <td>Autem, itaque nobis!</td>
-          <td>Fuga, laudantium quos.</td>
+          <th>Chronologie des jeux Uncharted</th>
         </tr>
         <tr>
-          <td>Lorem, ipsum dolor.</td>
-          <td>Autem, itaque nobis!</td>
-          <td>Fuga, laudantium quos.</td>
+          <td>Nom</td>
+          <td>Année</td>
+          <td>Ventes</td>
+          <td>Critique</td>
+        </tr>
+        </thead>
+        <tr>
+          <td>Drake's Fortune</td>
+          <td>2007</td>
+          <td>4 million+</td>
+          <td>88/100</td>
         </tr>
         <tr>
-          <td>Lorem, ipsum dolor.</td>
-          <td>Autem, itaque nobis!</td>
-          <td>Fuga, laudantium quos.</td>
+          <td>Among Thieves</td>
+          <td>2009</td>
+          <td>7 million+</td>
+          <td>96/100</td>
         </tr>
         <tr>
-          <td>Lorem, ipsum dolor.</td>
-          <td>Autem, itaque nobis!</td>
-          <td>Fuga, laudantium quos.</td>
+          <td>L'Illusion de Drake</td>
+          <td>2011</td>
+          <td>6 million+</td>
+          <td>92/100</td>
         </tr>
         <tr>
-          <td>Lorem, ipsum dolor.</td>
-          <td>Autem, itaque nobis!</td>
-          <td>Fuga, laudantium quos.</td>
+          <td>A Thief's End</td>
+          <td>2016</td>
+          <td>15 million+</td>
+          <td>93/100</td>
         </tr>
+        <tr>
+          <td>The Lost Legacy</td>
+          <td>2017</td>
+          <td>1 million+</td>
+          <td>84/100</td>
+        </tr>
+        
       </table>
+      </div> 
     </section>
-    <!--------------------------------------------------- Articles -->
+    <!--//////////////////////////////////////////////////////////////////////////// Articles -->
     <section id="articles">
-      <h1>Articles</h1>
+      <h1> ⌜Articles⌟ </h1>
+      <div class="flex-articlesP1">
+        <img src="images/naughty-dog.png" width="300" height="200"/>
+        <p>Naughty Dog est une société américaine de développement de jeu vidéo domiciliée à Santa Monica, fondée en 
+          1984 par Andy Gavin et Jason Rubin sous le nom de JAM Software, avant d'être rebaptisé Naughty Dog en 19892.
+
+          Depuis 2001, l'entreprise est une filiale de Sony Interactive Entertainment, 
+          le fabricant de la gamme PlayStation. Naughty Dog est connu pour avoir développé les séries 
+          à succès Crash Bandicoot, Jak and Daxter, Uncharted et The Last of Us, totalisant 40 millions de jeux vendus en 20093.</p>
+      </div>
+      <div class="flex-articlesP2">
+        <img src="images/naughty-dog.png"  width="300" height="200"/>
+        <p>Nathan Drake, accompagné de son compère, Victor Sullivan, parcourt le monde entier — Amazonie, Pacifique, Himalaya, Népal, Bornéo, le Rub al-Khali, Londres, Syrie, Yémen, Colombie, France, Italie, Turquie , Écosse ou encore Madagascar — à la recherche de trésors. Certains des objets de valeur qu'il recherche ont appartenu à son « ancêtre » Francis Drake. Ses pérégrinations le mèneront à la découverte de trésors et cités mythiques : l'Eldorado, Shambala, Ubar, Libertalia... </p>
+      </div>
     </section>
-    <!--------------------------------------------------- Galerie -->
+    <!--//////////////////////////////////////////////////////////////////////////// Galerie -->
     <section id="galerie">
-      <h1>galerie</h1>
+      <h1> ⌜Galerie⌟ </h1>
+      <div class="flex-galerie">
+      <figure>
+        <img src="images/uncharted-image2.jpg" alt="" width="350" height="200"/>
+      </figure>
+      <figure>
+        <img src="images/uncharted-image3.jpg" alt="" width="350" height="200"/>
+      </figure>
+      <figure>
+        <img src="images/uncharted-image4.jpg" alt="" width="350" height="200"/>
+      </figure>
+      <figure>
+        <img src="images/uncharted-image5.jpg" alt="" width="350" height="200"/>
+      </figure>
+      <figure>
+        <img src="images/uncharted-image6.jpg" alt="" width="350" height="200"/>
+      </figure>
+      <figure>
+        <img src="images/uncharted-image7.jpg" alt="" width="350" height="200"/>
+      </figure>
+    </div>
     </section>
-    <!--------------------------------------------------- Video -->
+    <!--//////////////////////////////////////////////////////////////////////////// Video -->
     <section id="video">
-      <h1>video</h1>
-      <iframe width="778" height="438" src="https://www.youtube.com/embed/hh5HV4iic1Y" title="UNCHARTED 4: A Thief's End (5/10/2016) - Story Trailer | PS4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="flex-video">
+      <h1> ⌜Vidéos⌟ </h1>
+      <iframe width="400" height="300" src="https://www.youtube.com/embed/l0YBY1NJ8dY" frameborder="2" ></iframe>
+      <iframe width="400" height="300" src="https://www.youtube.com/embed/F3Wl-OiZCO4" frameborder="2" ></iframe>
+      <iframe width="400" height="300" src="https://www.youtube.com/embed/hh5HV4iic1Y" frameborder="2" ></iframe>
     </section>
-        <!--------------------------------------------------- Pied-de-page -->
+        <!--//////////////////////////////////////////////////////////////////////////// Pied-de-page -->
         <section id="pied-de-page">
-          <h1>Pied-de-page</h1>
+          <h1> ⌜Pied de page⌟ </h1> 
         </section>
+    </div>
   </body>
   </html>
   

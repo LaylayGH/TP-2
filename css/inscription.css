@@ -1,3 +1,9 @@
+.flex-inscription {
+    background-color: rgba(0,0 , 0, 0.2);
+    border: 10px double rgba(0,0 , 0, 0.2);
+    text-align: center;
+}
+
 #inscription form {
     display: flex;
     flex-direction: column;
@@ -9,10 +15,7 @@
     justify-content: space-between;
 }
 
-#inscription .languages{
+#inscription .Jeux{
+    flex-direction: column;
     display: flex;
-}
-
-input {
-
 }

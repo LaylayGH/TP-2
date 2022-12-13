@@ -1,0 +1,15 @@
+.flex-articlesP1 {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 10px double rgba(0, 0, 0, 0.2);
+}
+
+.flex-articlesP2 {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 10px double rgba(0, 0, 0, 0.2);
+}
+
+#articles p {
+  width: 60%;
+}
