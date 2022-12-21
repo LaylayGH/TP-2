@@ -1,11 +1,8 @@
-/*@font-face {
-    font-family: 'Uncharted';
-    src: url(fonts/Uncharted.ttf);
-}*/
 
 .flex-tableau {
     text-align: center;
     background-color: rgba(0,0 , 0, 0.2);
+    width: 84%;
     border: 10px double rgba(0,0 , 0, 0.2);
 }
     
@@ -19,7 +16,7 @@
 
 #tableau table {
     border: 1px solid black;
-    width: 630px;
+    width: 100%;
     height: 250px;
     
 };

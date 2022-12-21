@@ -1,9 +1,5 @@
 .flex-video {
     text-align: center;
     background-color: rgba(0,0 , 0, 0.2);
-    border: 10px double rgba(0,0 , 0, 0.2);
-}
-
-#video {
-    
+    width: 87%;
 }

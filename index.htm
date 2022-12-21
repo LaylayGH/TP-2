@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -23,6 +23,12 @@
     <!--//////////////////////////////////////////////////////////////////////////// Menu -->
     <header>
       <nav class="menu">
+        <img
+          src="https://s2.svgbox.net/illlustrations.svg?ic=gaming-console"
+          width="40"
+          height="160"
+          alt=""
+        />
         <a href="#accueil">accueil</a>
         <a href="#inscription">inscription</a>
         <a href="#tableau">Tableau</a>
@@ -35,169 +41,341 @@
 
     <!--//////////////////////////////////////////////////////////////////////////// Accueil -->
     <section id="accueil">
-        <div class="flex-accueil">
+      <div class="flex-accueil">
         <h2>↓ TP2 ↓</h2>
-        <h1> ⌜Uncharted⌟ </h1>
+        <h1>
+          -
+          <img
+            src="images/Uncharted-Logo.png"
+            alt=""
+            width="575"
+            height="150"
+          />
+          -
+        </h1>
         <h3>Lhaissa Nomie Jérôme</h3>
         <p>
-          1W1-Mise en page Web   |
-          Technique d'intégration multimédia   |
-          Collège de Maisonneuve
+          1W1-Mise en page Web | Technique d'intégration multimédia | Collège de
+          Maisonneuve
         </p>
-        <p>
-          Automne 2022
-        </p>
+        <p>Automne 2022</p>
       </div>
-      </section>
+    </section>
     <!--//////////////////////////////////////////////////////////////////////////// Inscription -->
     <section id="inscription">
       <div class="flex-inscription">
-      <h1>⌜Inscription⌟ </h1>
-      <form>
-      <label>Prénom
-          <input type="text">
-      </label>
+        <h1>⌜Inscription⌟</h1>
+        <p>Pour recevoir un rabais sur votre prochain achat de Uncharted!</p>
+        <form>
+          <label
+            >Prénom
+            <input type="text" />
+          </label>
 
-      <label>Nom
-        <input type="text">
-      </label>
+          <label
+            >Nom
+            <input type="text" />
+          </label>
 
-      <label>Email
-      <input type="text">
-      </label>
+          <label
+            >Email
+            <input type="text" />
+          </label>
 
-      <h2>⇁ Les Jeux Uncharted ↼</h2>
+          <h2>⇁ Quiz ↼</h2>
+          <p>Pour recevoir un jeu gratuit!</p>
+          <div class="Jeux">
+            <label>Drake's Fortune<input type="checkbox" id="1" /></label>
+            <label>Among Thieves<input type="checkbox" id="2" /></label>
+            <label>L'Illusion de Drake<input type="checkbox" id="3" /></label>
+            <label>A Thief's End<input type="checkbox" id="4" /></label>
+            <label>The Lost Legacy<input type="checkbox" id="5" /></label>
+          </div>
 
-      <div class="Jeux">
-        <label>Drake's Fortune<input type="checkbox" id="1"></label>
-        <label>Among Thieves<input type="checkbox" id="2"></label>
-        <label>L'Illusion de Drake<input type="checkbox" id="3"></label>
-        <label>A Thief's End<input type="checkbox" id="4"></label>
-        <label>The Lost Legacy<input type="checkbox" id="5"></label>
+          <label class="dates-de-sorties"
+            >Date de sorties du Jeu
+            <input type="number" id="temps" list="dates-de-sorties" />
+            <datalist id="dates-de-sorties">
+              <option value="2007"></option>
+              <option value="2008"></option>
+              <option value="2009"></option>
+              <option value="2010"></option>
+              <option value="2011"></option>
+              <option value="2013"></option>
+              <option value="2015"></option>
+              <option value="2016"></option>
+              <option value="2017"></option>
+            </datalist>
+          </label>
+
+          <label id="soumettre">
+            <input type="submit" />
+          </label>
+        </form>
       </div>
-
-      <label class="dates-de-sorties">Dates de sorties de Jeu
-      <input type="number" id="temps" list="dates-de-sorties">
-        <datalist id="dates-de-sorties">
-          <option value="2007">
-          <option value="2009">
-          <option value="2011">
-          <option value="2016">
-          <option value="2017"></option>
-        </datalist>
-      </label>
-
-      <label id="soumettre">
-      <input type="submit">
-      </label>
-
-      </form>
-    </div>
     </section>
     <!--//////////////////////////////////////////////////////////////////////////// Tableau -->
     <section id="tableau">
       <div class="flex-tableau">
-      <h1> ⌜Tableau⌟ </h1>
-      <table>
-        <thead>
-        <tr>
-          <th>Chronologie des jeux Uncharted</th>
-        </tr>
-        <tr>
-          <td>Nom</td>
-          <td>Année</td>
-          <td>Ventes</td>
-          <td>Critique</td>
-        </tr>
-        </thead>
-        <tr>
-          <td>Drake's Fortune</td>
-          <td>2007</td>
-          <td>4 million+</td>
-          <td>88/100</td>
-        </tr>
-        <tr>
-          <td>Among Thieves</td>
-          <td>2009</td>
-          <td>7 million+</td>
-          <td>96/100</td>
-        </tr>
-        <tr>
-          <td>L'Illusion de Drake</td>
-          <td>2011</td>
-          <td>6 million+</td>
-          <td>92/100</td>
-        </tr>
-        <tr>
-          <td>A Thief's End</td>
-          <td>2016</td>
-          <td>15 million+</td>
-          <td>93/100</td>
-        </tr>
-        <tr>
-          <td>The Lost Legacy</td>
-          <td>2017</td>
-          <td>1 million+</td>
-          <td>84/100</td>
-        </tr>
-        
-      </table>
-      </div> 
+        <h1>
+          Faits intéressants sur
+          <img src="images/uncharted-wide.png" width="150" height="25" alt="" />
+          !
+        </h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Chronologie des jeux Uncharted</th>
+            </tr>
+            <tr>
+              <td>Nom</td>
+              <td>Année</td>
+              <td>Ventes</td>
+              <td>Critique</td>
+            </tr>
+          </thead>
+          <tr>
+            <td>Drake's Fortune</td>
+            <td>2007</td>
+            <td>4 million+</td>
+            <td>88/100</td>
+          </tr>
+          <tr>
+            <td>Among Thieves</td>
+            <td>2009</td>
+            <td>7 million+</td>
+            <td>96/100</td>
+          </tr>
+          <tr>
+            <td>L'Illusion de Drake</td>
+            <td>2011</td>
+            <td>6 million+</td>
+            <td>92/100</td>
+          </tr>
+          <tr>
+            <td>A Thief's End</td>
+            <td>2016</td>
+            <td>15 million+</td>
+            <td>93/100</td>
+          </tr>
+          <tr>
+            <td>The Lost Legacy</td>
+            <td>2017</td>
+            <td>1 million+</td>
+            <td>84/100</td>
+          </tr>
+        </table>
+      </div>
     </section>
     <!--//////////////////////////////////////////////////////////////////////////// Articles -->
     <section id="articles">
-      <h1> ⌜Articles⌟ </h1>
       <div class="flex-articlesP1">
-        <img src="images/naughty-dog.png" width="300" height="200"/>
-        <p>Naughty Dog est une société américaine de développement de jeu vidéo domiciliée à Santa Monica, fondée en 
-          1984 par Andy Gavin et Jason Rubin sous le nom de JAM Software, avant d'être rebaptisé Naughty Dog en 19892.
-
-          Depuis 2001, l'entreprise est une filiale de Sony Interactive Entertainment, 
-          le fabricant de la gamme PlayStation. Naughty Dog est connu pour avoir développé les séries 
-          à succès Crash Bandicoot, Jak and Daxter, Uncharted et The Last of Us, totalisant 40 millions de jeux vendus en 20093.</p>
+        <h3>Drake's Fortune</h3>
+        <img src="images/jeu-1_uncharted.jpg" alt="" width="350" height="200" />
+        <p>
+          Nathan Drake, un chasseur de trésor qui parcourt le globe à la
+          recherche de reliques et autres objets de valeur, est persuadé d'être
+          le descendant de l'illustre corsaire et explorateur Francis Drake,
+          disparu dans de mystérieuses conditions après avoir amassé de nombreux
+          trésors. Accompagné de son compère, Victor Sullivan et d'une
+          réalisatrice de documentaires, Elena Fischer, Nathan tente de
+          retrouver sa trace. Ils finissent par retrouver le tombeau de Francis
+          Drake au large des côtes panaméennes mais ne découvrent à l'intérieur
+          que son carnet, indiquant qu'il était sur les traces d'El Dorado, la
+          légendaire cité d'or.
+        </p>
       </div>
       <div class="flex-articlesP2">
-        <img src="images/naughty-dog.png"  width="300" height="200"/>
-        <p>Nathan Drake, accompagné de son compère, Victor Sullivan, parcourt le monde entier — Amazonie, Pacifique, Himalaya, Népal, Bornéo, le Rub al-Khali, Londres, Syrie, Yémen, Colombie, France, Italie, Turquie , Écosse ou encore Madagascar — à la recherche de trésors. Certains des objets de valeur qu'il recherche ont appartenu à son « ancêtre » Francis Drake. Ses pérégrinations le mèneront à la découverte de trésors et cités mythiques : l'Eldorado, Shambala, Ubar, Libertalia... </p>
+        <h3>Among Thieves</h3>
+        <img src="images/jeu-2_uncharted.jpg" alt="" width="350" height="200" />
+        <p>
+          Nathan Drake se fait recruter par son ami Harry Flynn et son ex-petite
+          amie Chloé Frazer pour dérober une lampe ayant appartenu au légendaire
+          navigateur et explorateur Marco Polo au musée du palais d'Istanbul.
+          Après avoir réussi à s'infiltrer, ils parviennent à subtiliser la
+          lampe et la briser afin de révéler son contenu. Ils découvrent que
+          cette dernière enferme un vieux parchemin vierge et de la résine.
+          Nathan entreprend alors d'utiliser le briquet de son acolyte afin
+          d'illuminer le parchemin et laisse apparaitre une carte. Cette
+          dernière donne l’emplacement de la flotte perdue de l'explorateur
+          disparue lors de son retour de Chine en 1292 à Bornéo.
+        </p>
+      </div>
+      <div class="flex-articlesP3">
+        <h3>Drake's Deception</h3>
+        <img src="images/jeu-3_uncharted.jpg" alt="" width="350" height="200" />
+        <p>
+          Dans les années 90, Nathan Drake alors adolescent tente de dérober une
+          bague et un astrolabe ayant appartenu à Francis Drake dans un musée à
+          Carthagène en Colombie. S'il parvient à récupérer la bague,
+          l'astrolabe lui échappe, récupéré quant à lui par une femme du nom de
+          Katherine Marlowe. Cette dernière tente de tuer Nathan pour récupérer
+          la bague, mais celui-ci est sauvé par un escroc professionnel alliée
+          de Marlowe, Victor Sullivan : ce dernier propose alors à Nathan une
+          alliance en lui proposant de lui enseigner tout ce qu'il sait pour
+          qu'il apprenne à faire face au danger, ce que Nathan accepte.
+        </p>
+      </div>
+      <div class="flex-articlesP4">
+        <h3>A Thief's End</h3>
+        <img src="images/jeu-4_uncharted.jpg" alt="" width="350" height="200" />
+        <p>
+          Alors que Nathan est âgé de 13 ans et se trouve à l’orphelinat
+          catholique, son grand frère Samuel devenu voleur lui fait faire le mur
+          pour l'emmener secrètement dans la demeure d'une grande archéologue
+          possédant des affaires appartenant à leur mère qui a été sa collègue.
+          Repérés par la vieille femme qui alerte la police, cette dernière les
+          reconnaît néanmoins et accepte de leur laisser ses notes avant de
+          mourir d'une crise cardiaque. Les deux frères doivent fuir et
+          comprennent qu'ils doivent changer d'identités ; se rappelant que leur
+          mère a été persuadé que le légendaire explorateur Francis Drake avait
+          des héritiers cachés.
+        </p>
       </div>
     </section>
     <!--//////////////////////////////////////////////////////////////////////////// Galerie -->
     <section id="galerie">
-      <h1> ⌜Galerie⌟ </h1>
       <div class="flex-galerie">
-      <figure>
-        <img src="images/uncharted-image2.jpg" alt="" width="350" height="200"/>
-      </figure>
-      <figure>
-        <img src="images/uncharted-image3.jpg" alt="" width="350" height="200"/>
-      </figure>
-      <figure>
-        <img src="images/uncharted-image4.jpg" alt="" width="350" height="200"/>
-      </figure>
-      <figure>
-        <img src="images/uncharted-image5.jpg" alt="" width="350" height="200"/>
-      </figure>
-      <figure>
-        <img src="images/uncharted-image6.jpg" alt="" width="350" height="200"/>
-      </figure>
-      <figure>
-        <img src="images/uncharted-image7.jpg" alt="" width="350" height="200"/>
-      </figure>
-    </div>
+        <figure>
+          <img
+            src="images/uncharted-image2.jpg"
+            alt=""
+            width="350"
+            height="200"
+          />
+        </figure>
+        <figure>
+          <img
+            src="images/uncharted-image3.jpg"
+            alt=""
+            width="350"
+            height="200"
+          />
+        </figure>
+        <figure>
+          <img
+            src="images/uncharted-image4.jpg"
+            alt=""
+            width="350"
+            height="200"
+          />
+        </figure>
+        <figure>
+          <img
+            src="images/uncharted-image5.jpg"
+            alt=""
+            width="350"
+            height="200"
+          />
+        </figure>
+        <figure>
+          <img
+            src="images/uncharted-image6.jpg"
+            alt=""
+            width="350"
+            height="200"
+          />
+        </figure>
+        <figure>
+          <img
+            src="images/uncharted-image7.jpg"
+            alt=""
+            width="350"
+            height="200"
+          />
+        </figure>
+      </div>
     </section>
     <!--//////////////////////////////////////////////////////////////////////////// Video -->
     <section id="video">
       <div class="flex-video">
-      <h1> ⌜Vidéos⌟ </h1>
-      <iframe width="400" height="300" src="https://www.youtube.com/embed/l0YBY1NJ8dY" frameborder="2" ></iframe>
-      <iframe width="400" height="300" src="https://www.youtube.com/embed/F3Wl-OiZCO4" frameborder="2" ></iframe>
-      <iframe width="400" height="300" src="https://www.youtube.com/embed/hh5HV4iic1Y" frameborder="2" ></iframe>
+        <h3>Legacy of Thieves gameplay</h3>
+        <iframe
+          width="400"
+          height="300"
+          src="https://www.youtube.com/embed/l0YBY1NJ8dY"
+        ></iframe>
+        <h3>Legacy of Thieves - bande-annonce</h3>
+        <iframe
+          width="400"
+          height="300"
+          src="https://www.youtube.com/embed/F3Wl-OiZCO4"
+        ></iframe>
+        <h3>Uncharted 4 - bande-annonce</h3>
+        <iframe
+          width="400"
+          height="300"
+          src="https://www.youtube.com/embed/hh5HV4iic1Y"
+        ></iframe>
+      </div>
     </section>
-        <!--//////////////////////////////////////////////////////////////////////////// Pied-de-page -->
-        <section id="pied-de-page">
-          <h1> ⌜Pied de page⌟ </h1> 
-        </section>
-    </div>
+    <!--//////////////////////////////////////////////////////////////////////////// Pied-de-page -->
+    <section id="pied-de-page">
+      <footer>
+        <h5>Adresse du collège - 3800 R. Sherbrooke E, Montréal, QC H1X 2A2</h5>
+        <dl>
+          <dt>Liens importants</dt>
+          <dd>
+            <a href="https://www.playstation.com/en-ca/uncharted/"
+              >Site de Uncharted</a
+            >
+          </dd>
+          <dd><a href="https://www.naughtydog.com/">Naughty Dog</a></dd>
+          <dd>
+            <a href="https://fr.wikipedia.org/wiki/Uncharted"
+              >Uncharted wikipédia</a
+            >
+          </dd>
+          <dd>
+            <a
+              href="https://fr.wikipedia.org/wiki/Sony_Interactive_Entertainment"
+              >Sony Interactive Entertainment</a
+            >
+          </dd>
+        </dl>
+        <dl>
+          <dt>Liens sociaux</dt>
+          <dd>
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=instagram"
+              alt=""
+              width="19"
+              height="19"
+            />
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=behance"
+              alt=""
+              width="19"
+              height="19"
+            />
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=github"
+              alt=""
+              width="19"
+              height="19"
+            />
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=patreon"
+              alt=""
+              width="19"
+              height="19"
+            />
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=reddit"
+              alt=""
+              width="19"
+              height="19"
+            />
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=twitch#"
+              alt=""
+              width="19"
+              height="19"
+            />
+          </dd>
+        </dl>
+        <h6>&copy; Avis de confidentialité | Privacy Notice</h6>
+      </footer>
+    </section>
   </body>
-  </html>
-  
+</html>

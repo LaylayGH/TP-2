@@ -1,15 +1,14 @@
-@font-face {
-  font-family: unchartedFont;
-  src: url(Base_02.ttf);
-}
-
-.flex-accueil h1 {
-  font-family: unchartedFont;
-}
-
 .flex-accueil {
   background-color: rgba(0, 0, 0, 0.2);
   justify-content: center;
   text-align: center;
   border: 10px double rgba(0, 0, 0, 0.2);
 }
+
+/*.flex-accueil :nth-of-type(1) {
+  background-image: url("../images/fond-1-page.jpg");
+}*/
+
+#accueil h1 {
+  margin: 0;
+} 

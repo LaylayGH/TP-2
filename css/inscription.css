@@ -1,7 +1,16 @@
 .flex-inscription {
-    background-color: rgba(0,0 , 0, 0.2);
     border: 10px double rgba(0,0 , 0, 0.2);
     text-align: center;
+    background-image: linear-gradient(118deg, rgb(0 0 0 / 50%), transparent)
+}
+
+.flex-inscription p {
+    padding: 8px;
+}
+
+#inscription button {
+    height: 22px;
+    width: 45px;
 }
 
 #inscription form {

@@ -1,0 +1,39 @@
+
+footer {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 5%;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer dl {
+  background-color: rgb(40 40 40 / 50%);
+  padding: 4%;
+}
+
+footer dt {
+  font-size: 25px;
+}
+
+footer dd {
+  font-size: small;
+  padding: 15px 0 0 0;
+  margin: 0;
+}
+
+  

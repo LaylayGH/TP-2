@@ -4,5 +4,21 @@ Pour afficher la console "GIT"
 2- Sélectionner " ouvrir dans le terminal intégré "
 3- Créer le dépot avec la commance " git init ", on fait cette commande une seule fois dans le dossier, sinon l'autre version va être détruite
 4- Dans l'explorateur, aller sur " Affichage/éléments masqués " pour voir .git aka " dépôt "
+5- Si la commande git n'est pas reconnue il faut installer git, chercher " git download " dans google pour trouver: 
+https://git-scm.com/download/win puis télécharger la version windows 64 bits ET lancer l'installateur
+6- Fermer VSC puis le relancer pour permettre d'accepter git
+7- Pour voir l'état de votre version : " git status "
+Si les fichiers apparaissent en rouge, il faut les indexer en faisant " git add --all ". En de nouveau git satus vous constaterez que les fichiers sont verts
+Une fois que tous les fichiers modifiés passent au vert on peut faire un " git commit -m "
 
-5- 
+8- Pour créer un compte github, " signup "
+9- Pour créer un dépôt dans votre compte github, il faut Sélectionner " repository ", cliquer sur " new "
+Entrer le nom du " repository " en français nom du dépôt (On veut créer le nom le plus simple possible ex : 1w1)
+On sélectionne pour l'instant un dépôt " Public " à partir du radio button
+On sauvegarde le dépôt
+Ensuite on revient au terminal VSC et entrer les commandes suivantes :
+    1- Changer le nom de la branche principal (main OU master) --> "git branch -m main "
+    2- Créer un alias pour l'adresse du serveur distant " github ", " git remote add 1w1 add https://github.com/LaylayGH/TP-2.git "
+    Pour vérifier que l'alias est bien créé; " git remote -v "
+    
+
